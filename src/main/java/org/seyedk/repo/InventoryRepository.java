@@ -1,12 +1,12 @@
-package com.brownfield.pss.book.repository;
+package org.seyedk.repo;
 
 
+
+import org.seyedk.domain.Inventory;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.brownfield.pss.book.entity.Inventory;
 
 public interface InventoryRepository extends JpaRepository<Inventory, Long> {
 
-	Inventory findByFlightNumberAndFlightDate(String flightNumber, String flightDate);
+	Inventory findByAssetNumberAndMovingDate(String assetNumber, String movingDate);
 	
 }

@@ -1,31 +1,32 @@
-package com.brownfield.pss.book.component;
+package org.seyedk.component;
 
+//simple price component!
 
-public class Fare {
-	String flightNumber;
-	String flightDate;
-	String fare;
-	public String getFlightNumber() {
-		return flightNumber;
+public class Price {
+	String assetNumber;
+	String movingDate;
+	String price;
+	public String getAssetNumber() {
+		return assetNumber;
 	}
-	public void setFlightNumber(String flightNumber) {
-		this.flightNumber = flightNumber;
+	public void setAssetNumber(String assetNumber) {
+		this.assetNumber = assetNumber;
 	}
-	public String getFlightDate() {
-		return flightDate;
+	public String getMovingDate() {
+		return movingDate;
 	}
-	public void setFlightDate(String flightDate) {
-		this.flightDate = flightDate;
+	public void setMovingDate(String movingDate) {
+		this.movingDate = movingDate;
 	}
-	public String getFare() {
-		return fare;
+	public String getPrice() {
+		return price;
 	}
-	public void setFare(String fare) {
-		this.fare = fare;
+	public void setPrice(String price) {
+		this.price = price;
 	}
 	@Override
 	public String toString() {
-		return "Fare [flightNumber=" + flightNumber + ", flightDate=" + flightDate + ", fare=" + fare + "]";
+		return "Price [assetNumber=" + assetNumber + ", movingDate=" + movingDate + ", price=" + price + "]";
 	}
 	
 }
