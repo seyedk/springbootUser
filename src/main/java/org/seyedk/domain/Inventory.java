@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2018. Developed by Seyed Ketabchi on 9/9/18 2:14 PM. Last Modified 9/8/18 8:33 AM. Please use as is under your own discretion.
+ */
+
 package org.seyedk.domain;
 
 
